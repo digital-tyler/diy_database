@@ -1,0 +1,20 @@
+# Determine path
+pwd
+
+# navigate to correct folder
+cd Portfolio
+
+# Create virtual environment
+python3 -m venv portfolio_database
+
+# Activate virtual environment
+source portfolio_database/bin/activate
+
+# Install ipykernel, needed to register virtual env with jupyter
+pip install ipykernel
+
+# Register virtual environment with Jupyter
+# python3 -m ipykernel install --user --name=portfolio_database
+
+# Launch Jupyter Notebook
+jupyter notebook
