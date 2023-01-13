@@ -11,9 +11,11 @@
   * __(WIP)__Leverage Python for statistical analysis and graphical representation of the data. The simple regression analysis is recreated, along with an examination of whether our simple regression analysis is sophisticated enough to capture the behavior of our data
 
 #### There are a few key files in this repo that will be useful for recreating this analysis on a clean installation of macOS:
-* database_sample_data.ipynb: The theme of this notebook is SQL; the following are the main sections of this file:
+* __database_sample_data.ipynb:__ The theme of this notebook is SQL; the following are the main sections of this file:
   * Setting up a SQL connection within Jupyter Notebook for querying our DVD database
   * Using SQL to get a feel for the data availble in our 15-table database
   * Using SQL to create a simple regression model, consisting of historical data and calculated slope / trend data
   * A forecast for the next 6 months, based on our historical dataset - we use SQL here, although a language pike Python will undoubtedly be easier to produce forecasts
-* Python file: coming soon!
+* __virtual_environment.txt:__ A text file with the commands used for creating the virtual environment powering this analysis
+  * Also contains commands required to register our virtual enviroment with Jupyter Notebook
+* __Python file:__ coming soon!
